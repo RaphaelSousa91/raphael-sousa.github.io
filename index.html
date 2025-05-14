@@ -10,27 +10,37 @@
     body {
       margin: 0;
       font-family: 'Merriweather', serif;
-      color: #2e2e2e;
-      background-color: #f4f1ed;
+      background-color: #1c1b1f;
+      color: #f4f1ed;
       line-height: 1.6;
     }
     header, footer {
-      background-color: #fff;
+      background-color: #141316;
       padding: 2rem;
       text-align: center;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #3e3d42;
     }
-    h1, h2, h3 {
+    h1 {
       font-family: 'Playfair Display', serif;
-      color: #6a0f49;
+      font-size: 3rem;
+      color: #f29f05;
+      margin: 0;
+    }
+    h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: #ffffff;
+    }
+    p.copyright {
+      font-size: 0.9rem;
+      color: #888;
     }
     nav a {
       margin: 0 1rem;
       text-decoration: none;
-      color: #5a3e36;
+      color: #f4f1ed;
     }
     nav a:hover {
-      color: #9c1c6e;
+      color: #f29f05;
     }
     main {
       max-width: 800px;
@@ -38,7 +48,7 @@
       padding: 0 1rem;
     }
     .book {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #3e3d42;
       margin-bottom: 2rem;
       padding-bottom: 1rem;
     }
@@ -52,21 +62,37 @@
       display: inline-block;
       margin-top: 1rem;
       padding: 0.5rem 1.2rem;
-      background-color: #6a0f49;
-      color: #fff;
+      background-color: #f29f05;
+      color: #141316;
       text-decoration: none;
       border-radius: 4px;
       transition: background-color 0.3s ease;
     }
     .cta:hover {
-      background-color: #9c1c6e;
+      background-color: #ffb92a;
+    }
+    .social {
+      margin-top: 1rem;
+    }
+    .social a {
+      margin: 0 0.3rem;
+      display: inline-block;
+    }
+    .social img {
+      width: 30px;
+      height: 30px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Raphael Sousa</h1>
-    <p>“Escrever é tocar o indizível.”</p>
+    <h3>Escritor</h3>
+    <p class="copyright">© Copyright 2025</p>
+    <div class="social">
+      <a href="https://www.instagram.com/_raphael.sousa_" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+      <a href="https://www.youtube.com/@_raphael.sousa_" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+    </div>
     <nav>
       <a href="sobre.html">Sobre Mim</a>
       <a href="#livros">Livros</a>
@@ -76,11 +102,6 @@
   </header>
 
   <main>
-    <section id="sobre">
-      <h2>Sobre o Autor</h2>
-      <p>Raphael Sousa é filósofo, escritor e pensador contemporâneo cujas obras percorrem as zonas limítrofes da alma humana. Sua escrita mergulha na crueza do ser, nas fricções entre o sagrado e o profano, e no abismo onde desejo e transcendência se confrontam. Em um mundo saturado de certezas frágeis, sua voz propõe uma sabedoria inquieta — profunda, indomada, e atravessada por uma pergunta que ecoa sem cessar: o que, afinal, sabemos da Verdade?</p>
-    </section>
-
     <section id="livros">
       <h2>Livros</h2>
 
