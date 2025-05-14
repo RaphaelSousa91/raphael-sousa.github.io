@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Reflexões literárias e filosóficas de Raphael Sousa">
-  <title>Reflexões | Raphael Sousa</title>
+  <meta name="description" content="Site oficial do escritor Raphael Sousa. Conheça seus livros, leia reflexões e entre em contato diretamente com o autor.">
+  <title>Raphael Sousa — Escritor</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Merriweather', serif;
-      background-color: #f4f1ed;
       color: #2e2e2e;
-      line-height: 1.8;
+      background-color: #f4f1ed;
+      line-height: 1.6;
     }
     header, footer {
       background-color: #fff;
@@ -20,18 +20,14 @@
       text-align: center;
       border-bottom: 1px solid #ddd;
     }
-    h1, h2 {
+    h1, h2, h3 {
       font-family: 'Playfair Display', serif;
       color: #6a0f49;
-    }
-    nav {
-      margin-top: 1rem;
     }
     nav a {
       margin: 0 1rem;
       text-decoration: none;
       color: #5a3e36;
-      font-weight: bold;
     }
     nav a:hover {
       color: #9c1c6e;
@@ -41,51 +37,78 @@
       margin: 2rem auto;
       padding: 0 1rem;
     }
-    article {
-      margin-bottom: 3rem;
+    .book {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
     }
-    article h2 {
-      margin-bottom: 0.5rem;
-    }
-    article p {
-      text-align: justify;
-    }
-    .capa {
-      width: 100%;
-      max-width: 720px;
+    .book img {
+      max-width: 200px;
       height: auto;
-      margin: 1rem auto;
       display: block;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.2rem;
+      background-color: #6a0f49;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .cta:hover {
+      background-color: #9c1c6e;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Reflexões</h1>
+    <h1>Raphael Sousa</h1>
+    <p>“Escrever é tocar o indizível.”</p>
     <nav>
-      <a href="/">Página Inicial</a>
-      <a href="/#livros">Livros</a>
-      <a href="/sobre.html">Sobre Mim</a>
-      <a href="/#contato">Contato</a>
+      <a href="sobre.html">Sobre Mim</a>
+      <a href="#livros">Livros</a>
+      <a href="reflexoes.html">Reflexões</a>
+      <a href="#contato">Contato</a>
     </nav>
   </header>
 
   <main>
-    <article>
-      <img src="jealousy-flirtation.jpg" alt="Ilustração sobre ciúmes e desejo" class="capa">
-      <h2>Ciúme Retroativo: Por que algumas pessoas têm ciúmes do passado romântico de seus parceiros?</h2>
-      <p><strong>Pontos chave</strong><br>
-      • O ciúme retroativo é uma resposta irracional;<br>
-      • Em geral, revela uma insegurança emocional do(a) parceiro(a);<br>
-      • O ciúme é uma manifestação inconsciente de posse e propriedade;<br>
-      • A autorreflexão pode ser fundamental para melhorar esse comportamento.</p>
+    <section id="sobre">
+      <h2>Sobre o Autor</h2>
+      <p>Raphael Sousa é filósofo, escritor e pensador contemporâneo cujas obras percorrem as zonas limítrofes da alma humana. Sua escrita mergulha na crueza do ser, nas fricções entre o sagrado e o profano, e no abismo onde desejo e transcendência se confrontam. Em um mundo saturado de certezas frágeis, sua voz propõe uma sabedoria inquieta — profunda, indomada, e atravessada por uma pergunta que ecoa sem cessar: o que, afinal, sabemos da Verdade?</p>
+    </section>
 
-      <p>Recentemente, enquanto assistia à série "Love is Blind" na Netflix, me deparei com um intrigante diálogo entre um casal que estava se conhecendo...</p>
+    <section id="livros">
+      <h2>Livros</h2>
 
-      <p>[O restante do texto completo segue aqui, conforme enviado por você. Para fins de espaço e clareza de edição, mantenha o corpo completo no código ou divida em blocos estruturados em parágrafos. Posso inserir toda a continuação se desejar, ou te enviar como bloco separado para você colar direto.]</p>
-    </article>
+      <div class="book">
+        <img src="religiosidade.jpg" alt="Capa do livro Religiosidade Pornográfica">
+        <h3>Religiosidade Pornográfica</h3>
+        <p>O consumo de pornografia entre cristãos e o mórbido silêncio das Igrejas. Raphael Sousa une fé, neurociência e experiência para expor a verdade que poucos têm coragem de dizer – o consumo de pornografia entre cristãos é real, constante e ignorado. Um chamado urgente à cura, não pela repressão, mas pela verdade.</p>
+        <a href="https://www.amazon.com.br/Religiosidade-Pornogr%C3%A1fica-pornografia-crist%C3%A3os-sil%C3%AAncio/dp/B0BW283Q2T/" class="cta" target="_blank">Comprar na Amazon</a>
+      </div>
+
+      <div class="book">
+        <img src="spotlight-biblia.jpg" alt="Capa da Série Spotlight: A Bíblia">
+        <h3>Série Spotlight: A Bíblia</h3>
+        <p>Uma trilogia literária que revisita os alicerces da fé judaico-cristã, expondo verdades soterradas sob séculos de tradição. Dois volumes já publicados. Um convite à lucidez.</p>
+        <a href="spotlight.html" class="cta">Conhecer a série</a>
+      </div>
+
+    </section>
+
+    <section id="blog">
+      <h2>Reflexões</h2>
+      <p>Breves pensamentos sobre o tempo, a linguagem e a ausência. Mais que um blog, este é um espaço de comunhão poética e filosófica.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Em breve, um formulário direto para contato com o autor será adicionado.</p>
+    </section>
   </main>
 
   <footer>
