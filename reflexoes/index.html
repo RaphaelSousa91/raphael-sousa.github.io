@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflexões</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #121014;
+      color: #f9f9f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #f7931e;
+      text-decoration: none;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f7931e;
+    }
+    main {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #333;
+    }
+    .card a {
+      color: #f7931e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Raphael Sousa</a>
+    <nav>
+      <a href="index.html">Página Inicial</a>
+      <a href="reflexoes.html">Reflexões</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <div class="card">
+      <img src="reflexoes/ciume-retroativo.jpg" alt="Imagem do artigo">
+      <div class="card-content">
+        <h2>Ciúme Retroativo: Por que nos incomoda o passado do outro?</h2>
+        <p>O ciúme retroativo revela insegurança e o desejo inconsciente de possuir também o passado do parceiro... <a href="reflexoes/ciume-retroativo.html">Leia mais</a></p>
+      </div>
+    </div>
 
+    <div class="card">
+      <img src="reflexoes/silencio-grita.jpg" alt="Capa da poesia">
+      <div class="card-content">
+        <h2>O Silêncio que Grita</h2>
+        <p>Uma poesia sobre a ausência, o tempo e a linguagem como eco do que não se diz... <a href="#">Leia mais</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
