@@ -1,130 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sobre Raphael Sousa</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Merriweather&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Merriweather', serif;
-      background-color: #fdfdfd;
-      color: #222;
-      line-height: 1.8;
+      background-color: #ffffff;
+      color: #0f0f0f;
     }
+
     header {
-      background-color: #141316;
-      padding: 2rem 1rem 1rem;
+      background-color: #0f0f0f;
+      padding: 1rem 0;
       text-align: center;
     }
+
     header h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 2.8rem;
+      color: #f39c12;
+      font-size: 2.5rem;
       margin: 0;
-      color: #f29f05;
     }
-    nav {
-      margin-top: 1rem;
-    }
+
     nav a {
-      display: inline-block;
-      font-family: 'Playfair Display', serif;
-      color: #f4f1ed;
-      text-decoration: none;
-      font-size: 1rem;
+      color: #ffffff;
       margin: 0 1rem;
-      position: relative;
+      text-decoration: none;
+      font-weight: bold;
     }
-    nav a::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 2px;
-      bottom: -4px;
-      left: 0;
-      background-color: #f29f05;
-      transform-origin: bottom right;
-      transition: transform 0.3s ease-out;
+
+    nav a:hover {
+      text-decoration: underline;
     }
-    nav a:hover::after {
-      transform: scaleX(1);
-      transform-origin: bottom left;
-    }
+
     .container {
-      max-width: 900px;
+      max-width: 800px;
       margin: 3rem auto;
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      padding: 2rem;
+      text-align: center;
     }
+
     .photo {
-      width: 240px;
-      height: 240px;
-      border-radius: 12px;
+      width: 220px;
+      height: 220px;
       object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 1.5rem;
     }
-    .bio {
-      font-size: 1.1rem;
-      text-align: justify;
-      padding: 0 1rem;
-    }
+
     .signature {
       margin-top: 2rem;
-      text-align: center;
+      font-family: 'Playfair Display', cursive;
+      font-size: 1.5rem;
+      color: #333;
     }
-    .signature img {
-      width: 180px;
-      height: auto;
-      opacity: 0.9;
-    }
-    footer {
-      background-color: #fdfdfd;
-      color: #666;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
+
+    .button-group {
       margin-top: 3rem;
+    }
+
+    .button-group a {
+      text-decoration: none;
+      background-color: #0f0f0f;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      margin: 0.5rem;
+      border-radius: 8px;
+      font-family: 'Merriweather', serif;
+      font-weight: bold;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .button-group a:hover {
+      background-color: #f39c12;
+      color: #0f0f0f;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Raphael Sousa</h1>
     <nav>
       <a href="index.html">Página Inicial</a>
       <a href="reflexoes.html">Reflexões</a>
-      <a href="contato.html">Contato</a>
+      <a href="mailto:raphael@email.com">Contato</a>
       <a href="index.html#livros">Livros</a>
     </nav>
   </header>
 
   <div class="container">
-   <img src="foto-perfil.jpg" alt="Foto de Raphael Sousa" class="photo">
-    <div class="bio">
-      <p>Chamo-me Raphael Sousa — ou, ao menos, assim fui designado no mundo. Mas um nome é, em essência, uma convenção; e nenhuma convenção dá conta do mistério de um sujeito. Os cadastros e registros sabem o que fiz: sou advogado, cristão, escritor e teólogo. Mas esses rótulos, ainda que legítimos, apenas orbitam o que sou — não me atravessam. Pois o que sabem os registros sobre o ser que se põe em questão?</p>
+    <img src="foto-perfil.jpg" alt="Foto de Raphael Sousa" class="photo"/>
 
-      <p>Formei-me em Direito pela Universidade Candido Mendes (2013), tornei-me Mestre em Direito Regulatório pela Fundação Getúlio Vargas (2016) e, mais tarde, Mestre em Direito e Economia pela mesma UCAM (2018). Acumulei diplomas — não por vaidade, mas por sede. A educação, para mim, nunca foi adereço; foi travessia. Foi o modo que encontrei de me insurgir contra o dado, contra o destino herdado, contra a repetição do Mesmo.</p>
+    <p>
+      Chamo-me Raphael Sousa — ou, ao menos, assim fui designado no mundo. Mas um nome é, em essência, uma convenção; e nenhuma convenção dá conta do mistério de um sujeito. Os cadastros e registros sabem o que fiz: sou advogado, cristão, escritor e teólogo. Mas esses rótulos, ainda que legítimos, apenas orbitam o que sou — não me atravessam.
+    </p>
 
-      <p>Mas nada disso, por si só, responde à pergunta fundamental: quem sou eu? E talvez a resposta mais honesta seja: sou um Outro — no pleno sentido da alteridade. Sinto-me sempre estrangeiro em mim mesmo, e é justamente por isso que me recuso a ser um Isso, uma coisa definível, uma função, um currículo. Habito a tensão entre o já-sido e o ainda-não. E é neste entre que respiro.</p>
+    <p>
+      Pois o que sabem os registros sobre o ser que se põe em questão? Formei-me em Direito pela Universidade Candido Mendes (2013), tornei-me Mestre em Direito Regulatório pela Fundação Getúlio Vargas (2016) e, mais tarde, Mestre em Direito e Economia pela mesma UCAM (2018). Acumulei diplomas — não por vaidade, mas por sede. A educação, para mim, nunca foi adereço; foi travessia.
+    </p>
 
-      <p>Sou, portanto, uma pergunta que caminha. Um ser-em-gestação. Meu “sou” não repousa — ele pulsa, escapa, excede. Não me interessa fixar-me em essências; antes, desejo permanecer em abertura. Meu ser está sempre por vir — não como fuga, mas como fidelidade à minha própria incompletude. E nisso encontro potência.</p>
+    <p>
+      Mas nada disso, por si só, responde à pergunta fundamental: quem sou eu? Talvez a resposta mais honesta seja: sou um Outro — no pleno sentido da alteridade. Sinto-me sempre estrangeiro em mim mesmo. E é neste entre que respiro. Sou, portanto, uma pergunta que caminha. Um ser-em-gestação. Meu “sou” não repousa — ele pulsa, escapa, excede. Desejo permanecer em abertura.
+    </p>
 
-      <p>Foi a educação — os livros, as ideias, os encontros — que me permitiram pensar-me assim: como um vir-a-ser que recusa ser reduzido ao que já foi. Eles me resgataram do automatismo, do mundo-coisa, da lógica do Isso. Fizeram de mim alguém capaz de buscar o Tu — o encontro vivo, a relação verdadeira, o espanto do Ser.</p>
+    <p>
+      Foi a educação — os livros, as ideias, os encontros — que me permitiram pensar-me assim: como um vir-a-ser que recusa ser reduzido ao que já foi. Eles me resgataram do automatismo, do mundo-coisa, da lógica do Isso. Fizeram de mim alguém capaz de buscar o Tu — o encontro vivo, a relação verdadeira, o espanto do Ser.
+    </p>
 
-      <p>Por isso, sigo comprometido — não com uma identidade pronta, mas com o processo de habitar o mundo com inteireza. Sigo escrevendo, pensando, tentando. Sigo sendo.</p>
-    </div>
-    <div class="signature">
-      <img src="assinatura.png" alt="Assinatura de Raphael Sousa">
+    <p>
+      Por isso, sigo comprometido — não com uma identidade pronta, mas com o processo de habitar o mundo com inteireza. Sigo escrevendo, pensando, tentando. Sigo sendo.
+    </p>
+
+    <div class="signature">Raphael Sousa</div>
+
+    <div class="button-group">
+      <a href="index.html">Página Inicial</a>
+      <a href="reflexoes.html">Reflexões</a>
+      <a href="mailto:raphael@email.com">Contato</a>
+      <a href="index.html#livros">Livros</a>
     </div>
   </div>
-
-  <footer>
-    <p>&copy; 2025 Raphael Sousa. Todos os direitos reservados.</p>
-  </footer>
 </body>
 </html>
