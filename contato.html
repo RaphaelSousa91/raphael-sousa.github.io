@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f9f9f9;
+      color: #121014;
+    }
+    header {
+      background-color: #121014;
+      color: #f9f9f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #f7931e;
+      text-decoration: none;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f7931e;
+    }
+    main {
+      max-width: 700px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      text-align: center;
+      padding-top: 2rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p.description {
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      padding: 0 2rem 2rem;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    input, textarea {
+      font-family: inherit;
+      font-size: 1rem;
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      resize: vertical;
+    }
+    button {
+      background-color: #f7931e;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #e57e0e;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #888;
+      padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Raphael Sousa</a>
+    <nav>
+      <a href="index.html">Página Inicial</a>
+      <a href="reflexoes/">Reflexões</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Fale comigo</h1>
+    <p class="description">Preencha o formulário abaixo para enviar uma mensagem direta.</p>
+    <form>
+      <div>
+        <label for="nome">Seu nome</label>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <div>
+        <label for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="mensagem">Sua mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; Raphael Sousa — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
