@@ -47,18 +47,37 @@
       margin: 2rem auto;
       padding: 0 1rem;
     }
-    .book {
-      border-bottom: 1px solid #3e3d42;
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
+    #livros .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 1rem;
     }
-    .book img {
+    .card-livro {
+      background-color: #2b2a2e;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .card-livro img {
+      width: 100%;
       max-width: 200px;
-      height: auto;
-      display: block;
+      border-radius: 4px;
       margin-bottom: 1rem;
     }
-    .cta {
+    .card-livro h3 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+    .card-livro p {
+      font-size: 0.95rem;
+      color: #ddd;
+    }
+    .card-livro .cta {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.5rem 1.2rem;
@@ -68,7 +87,7 @@
       border-radius: 4px;
       transition: background-color 0.3s ease;
     }
-    .cta:hover {
+    .card-livro .cta:hover {
       background-color: #ffb92a;
     }
     .social {
@@ -96,7 +115,7 @@
     <nav>
       <a href="sobre.html">Sobre Mim</a>
       <a href="#livros">Livros</a>
-    <a href="reflexoes/">Reflexões</a>
+      <a href="reflexoes/">Reflexões</a>
       <a href="#contato">Contato</a>
     </nav>
   </header>
@@ -104,21 +123,20 @@
   <main>
     <section id="livros">
       <h2>Livros</h2>
-
-      <div class="book">
-        <img src="religiosidade.jpg" alt="Capa do livro Religiosidade Pornográfica">
-        <h3>Religiosidade Pornográfica</h3>
-        <p>O consumo de pornografia entre cristãos e o mórbido silêncio das Igrejas. Raphael Sousa une fé, neurociência e experiência para expor a verdade que poucos têm coragem de dizer – o consumo de pornografia entre cristãos é real, constante e ignorado. Um chamado urgente à cura, não pela repressão, mas pela verdade.</p>
-        <a href="https://www.amazon.com.br/Religiosidade-Pornogr%C3%A1fica-pornografia-crist%C3%A3os-sil%C3%AAncio/dp/B0BW283Q2T/" class="cta" target="_blank">Comprar na Amazon</a>
+      <div class="grid">
+        <div class="card-livro">
+          <img src="religiosidade.jpg" alt="Capa do livro Religiosidade Pornográfica">
+          <h3>Religiosidade Pornográfica</h3>
+          <p>O consumo de pornografia entre cristãos e o mórbido silêncio das Igrejas. Raphael Sousa une fé, neurociência e experiência para expor a verdade que poucos têm coragem de dizer.</p>
+          <a href="https://www.amazon.com.br/Religiosidade-Pornogr%C3%A1fica-pornografia-crist%C3%A3os-sil%C3%AAncio/dp/B0BW283Q2T/" class="cta" target="_blank">Comprar na Amazon</a>
+        </div>
+        <div class="card-livro">
+          <img src="spotlight-biblia.jpg" alt="Capa da Série Spotlight: A Bíblia">
+          <h3>Série Spotlight: A Bíblia</h3>
+          <p>Uma trilogia literária que revisita os alicerces da fé judaico-cristã, expondo verdades soterradas sob séculos de tradição. Dois volumes já publicados.</p>
+          <a href="spotlight.html" class="cta">Conhecer a série</a>
+        </div>
       </div>
-
-      <div class="book">
-        <img src="spotlight-biblia.jpg" alt="Capa da Série Spotlight: A Bíblia">
-        <h3>Série Spotlight: A Bíblia</h3>
-        <p>Uma trilogia literária que revisita os alicerces da fé judaico-cristã, expondo verdades soterradas sob séculos de tradição. Dois volumes já publicados. Um convite à lucidez.</p>
-        <a href="spotlight.html" class="cta">Conhecer a série</a>
-      </div>
-
     </section>
 
     <section id="contato">
