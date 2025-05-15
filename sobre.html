@@ -3,71 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sobre o autor Raphael Sousa">
-  <title>Sobre o Autor</title>
+  <title>Sobre Raphael Sousa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Georgia, serif;
-      max-width: 800px;
-      margin: 4rem auto;
-      padding: 0 1rem;
-      color: #2e2e2e;
-      line-height: 1.7;
-      background-color: #f8f6f4;
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #fdfdfd;
+      color: #222;
+      line-height: 1.8;
     }
-    h1 {
-      font-size: 2.2rem;
+    header {
+      background-color: #141316;
+      padding: 2rem 1rem 1rem;
       text-align: center;
-      color: #6a0f49;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      margin: 0;
+      color: #f29f05;
     }
     nav {
-      text-align: center;
-      margin-bottom: 2rem;
+      margin-top: 1rem;
     }
     nav a {
+      display: inline-block;
+      font-family: 'Playfair Display', serif;
+      color: #f4f1ed;
+      text-decoration: none;
+      font-size: 1rem;
       margin: 0 1rem;
-      text-decoration: none;
-      color: #5a3e36;
-      font-weight: bold;
+      position: relative;
     }
-    nav a:hover {
-      color: #9c1c6e;
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: -4px;
+      left: 0;
+      background-color: #f29f05;
+      transform-origin: bottom right;
+      transition: transform 0.3s ease-out;
     }
-    img {
-      display: block;
-      max-width: 200px;
-      margin: 2rem auto;
-      border-radius: 8px;
-      border: 1px solid #ccc;
+    nav a:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
-    p {
-      margin-bottom: 1.5rem;
+    .container {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .photo {
+      width: 240px;
+      height: 240px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      margin-bottom: 2rem;
+    }
+    .bio {
+      font-size: 1.1rem;
       text-align: justify;
+      padding: 0 1rem;
     }
-    a {
-      color: #6a0f49;
-      text-decoration: none;
+    .signature {
+      margin-top: 2rem;
+      text-align: center;
     }
-    a:hover {
-      text-decoration: underline;
+    .signature img {
+      width: 180px;
+      height: auto;
+      opacity: 0.9;
+    }
+    footer {
+      background-color: #fdfdfd;
+      color: #666;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
-  <h1>Sobre Mim</h1>
-  <nav>
-    <a href="/">Página Inicial</a>
-    <a href="/#livros">Livros</a>
-    <a href="/#blog">Reflexões</a>
-    <a href="/#contato">Contato</a>
-  </nav>
-  <img src="minha-foto.jpg" alt="Foto de Raphael Sousa">
-  <p>Chamo-me Raphael Sousa — ou, ao menos, assim fui designado no mundo. Mas um nome é, em essência, uma convenção; e nenhuma convenção dá conta do mistério de um sujeito.</p>
-  <p>Os cadastros e registros sabem o que fiz: sou advogado, cristão, escritor e teólogo. Mas esses rótulos, ainda que legítimos, apenas orbitam o que sou — não me atravessam. Pois o que sabem os registros sobre o ser que se põe em questão?</p>
-  <p>Formei-me em Direito pela Universidade Candido Mendes (2013), tornei-me Mestre em Direito Regulatório pela Fundação Getúlio Vargas (2016) e, mais tarde, Mestre em Direito e Economia pela mesma UCAM (2018). Acumulei diplomas — não por vaidade, mas por sede. A educação, para mim, nunca foi adereço; foi travessia.</p>
-  <p>Mas nada disso, por si só, responde à pergunta fundamental: quem sou eu? E talvez a resposta mais honesta seja: sou um Outro — no pleno sentido da alteridade. Sinto-me sempre estrangeiro em mim mesmo, e é justamente por isso que me recuso a ser um Isso, uma coisa definível, uma função, um currículo. Habito a tensão entre o já-sido e o ainda-não. E é neste entre que respiro.</p>
-  <p>Sou, portanto, uma pergunta que caminha. Um ser-em-gestação. Meu “sou” não repousa — ele pulsa, escapa, excede. Não me interessa fixar-me em essências; antes, desejo permanecer em abertura. Meu ser está sempre por vir — não como fuga, mas como fidelidade à minha própria incompletude. E nisso encontro potência.</p>
-  <p>Foi a educação — os livros, as ideias, os encontros — que me permitiram pensar-me assim: como um vir-a-ser que recusa ser reduzido ao que já foi. Eles me resgataram do automatismo, do mundo-coisa, da lógica do Isso. Fizeram de mim alguém capaz de buscar o Tu — o encontro vivo, a relação verdadeira, o espanto do Ser.</p>
-  <p>Por isso, sigo comprometido — não com uma identidade pronta, mas com o processo de habitar o mundo com inteireza. Sigo escrevendo, pensando, tentando. Sigo sendo.</p>
+  <header>
+    <h1>Raphael Sousa</h1>
+    <nav>
+      <a href="index.html">Página Inicial</a>
+      <a href="reflexoes.html">Reflexões</a>
+      <a href="contato.html">Contato</a>
+      <a href="index.html#livros">Livros</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <img src="perfil.jpg" alt="Foto de Raphael Sousa" class="photo">
+    <div class="bio">
+      <p>Chamo-me Raphael Sousa — ou, ao menos, assim fui designado no mundo. Mas um nome é, em essência, uma convenção; e nenhuma convenção dá conta do mistério de um sujeito. Os cadastros e registros sabem o que fiz: sou advogado, cristão, escritor e teólogo. Mas esses rótulos, ainda que legítimos, apenas orbitam o que sou — não me atravessam. Pois o que sabem os registros sobre o ser que se põe em questão?</p>
+
+      <p>Formei-me em Direito pela Universidade Candido Mendes (2013), tornei-me Mestre em Direito Regulatório pela Fundação Getúlio Vargas (2016) e, mais tarde, Mestre em Direito e Economia pela mesma UCAM (2018). Acumulei diplomas — não por vaidade, mas por sede. A educação, para mim, nunca foi adereço; foi travessia. Foi o modo que encontrei de me insurgir contra o dado, contra o destino herdado, contra a repetição do Mesmo.</p>
+
+      <p>Mas nada disso, por si só, responde à pergunta fundamental: quem sou eu? E talvez a resposta mais honesta seja: sou um Outro — no pleno sentido da alteridade. Sinto-me sempre estrangeiro em mim mesmo, e é justamente por isso que me recuso a ser um Isso, uma coisa definível, uma função, um currículo. Habito a tensão entre o já-sido e o ainda-não. E é neste entre que respiro.</p>
+
+      <p>Sou, portanto, uma pergunta que caminha. Um ser-em-gestação. Meu “sou” não repousa — ele pulsa, escapa, excede. Não me interessa fixar-me em essências; antes, desejo permanecer em abertura. Meu ser está sempre por vir — não como fuga, mas como fidelidade à minha própria incompletude. E nisso encontro potência.</p>
+
+      <p>Foi a educação — os livros, as ideias, os encontros — que me permitiram pensar-me assim: como um vir-a-ser que recusa ser reduzido ao que já foi. Eles me resgataram do automatismo, do mundo-coisa, da lógica do Isso. Fizeram de mim alguém capaz de buscar o Tu — o encontro vivo, a relação verdadeira, o espanto do Ser.</p>
+
+      <p>Por isso, sigo comprometido — não com uma identidade pronta, mas com o processo de habitar o mundo com inteireza. Sigo escrevendo, pensando, tentando. Sigo sendo.</p>
+    </div>
+    <div class="signature">
+      <img src="assinatura.png" alt="Assinatura de Raphael Sousa">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Raphael Sousa. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
