@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testando Efeitos de Imagem</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      background-color: #fdfdfd;
+      font-family: 'Merriweather', serif;
+      color: #141316;
+      text-align: center;
+    }
 
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #f29f05;
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .foto-demo {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: all 0.4s ease;
+    }
+
+    .legenda {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+
+    /* EFEITO 1: Escurecer e ampliar */
+    .escurecer:hover {
+      filter: brightness(85%);
+      transform: scale(1.05);
+    }
+
+    /* EFEITO 2: Preto e branco que volta à cor */
+    .pb-color {
+      filter: grayscale(100%);
+    }
+
+    .pb-color:hover {
+      filter: grayscale(0%);
+      transform: scale(1.05);
+    }
+
+    /* EFEITO 3: Brilho sutil */
+    .brilho:hover {
+      box-shadow: 0 0 20px rgba(255, 200, 100, 0.5);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Testando Efeitos Visuais na Foto</h1>
+
+  <div class="container">
+    <div>
+      <img src="minha-foto.jpg" alt="Efeito 1" class="foto-demo escurecer">
+      <div class="legenda">1. Escurecer + Zoom</div>
+    </div>
+
+    <div>
+      <img src="minha-foto.jpg" alt="Efeito 2" class="foto-demo pb-color">
+      <div class="legenda">2. Preto & Branco → Cor</div>
+    </div>
+
+    <div>
+      <img src="minha-foto.jpg" alt="Efeito 3" class="foto-demo brilho">
+      <div class="legenda">3. Brilho Dourado</div>
+    </div>
+  </div>
+
+</body>
+</html>
