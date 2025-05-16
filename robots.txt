@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raphaelsousa-escritor.github.io/sitemap.xml
