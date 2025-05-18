@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jalousie Rétroactive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f9f9f9;
+      color: #121014;
+      line-height: 1.7;
+      padding-bottom: 3rem;
+    }
+    header {
+      background-color: #121014;
+      color: #f9f9f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #f7931e;
+      text-decoration: none;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f7931e;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 1.5rem;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+      margin-top: -1rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    p {
+      margin-bottom: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">Raphael Sousa</a>
+    <nav>
+      <a href="../index.html">Page d'accueil</a>
+      <a href="index.html">Réflexions</a>
+      <a href="../a-propos.html">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Jalousie Rétroactive : Pourquoi certaines personnes sont-elles jalouses du passé amoureux de leur partenaire ?</h1>
+    <img src="imagens/jealousy-flirtation.jpg" alt="Image de couverture : Jalousie et Passion">
+
+    <h2>Points clés</h2>
+    <ul>
+      <li>La jalousie rétroactive est une réponse irrationnelle ;</li>
+      <li>Elle révèle généralement une insécurité émotionnelle du partenaire ;</li>
+      <li>La jalousie est une manifestation inconsciente de possession et de propriété ;</li>
+      <li>L'autoréflexion peut être essentielle pour améliorer ce comportement.</li>
+    </ul>
+
+    <p>Récemment, en regardant la série <em>"Love is Blind"</em> sur Netflix, je suis tombé sur un dialogue intrigant entre un couple en train de se découvrir. En quelques minutes, l’un d’eux a commencé à poser une série de questions sur le passé de l’autre. Ce qui avait commencé comme une conversation anodine est rapidement devenu un interrogatoire : nombre d’anciens partenaires, date de la dernière relation intime, fréquence des rencontres, et même infidélités. Plus il entendait les réponses, plus l’homme s’enfonçait dans une mer de jalousie envers un passé qui, techniquement, ne lui appartenait pas. Il souffrait de ce que l’on appelle le « syndrome de Rebecca », aussi connu sous le nom de jalousie rétroactive.</p>
+
+    <p>« La jalousie rétroactive, parfois appelée TOC de jalousie rétroactive, est une forme intense et irrationnelle de jalousie dirigée vers les expériences passées d’un partenaire », explique Jourdan Travers, assistante sociale clinicienne diplômée de l’Université du Maryland.</p>
+
+    <p>Contrairement à la jalousie conventionnelle, qui concerne les actions présentes du partenaire, la jalousie rétroactive prend racine uniquement dans son passé. Mais comment peut-on être jaloux de ce que nous n’avons pas vécu ? Les études identifient trois caractéristiques principales : (i) pensées obsessionnelles, (ii) interrogations constantes et (iii) comparaisons. Cependant, un quatrième élément passe souvent inaperçu : le sentiment de propriété.</p>
+
+    <p>Admettre ce fait est difficile : la jalousie est une émotion complexe, mêlant insécurité, peur et désir de contrôle. Elle est ancrée dans l’idée que quelque chose d’important pourrait nous être enlevé — quelque chose que nous croyons nous appartenir. Ainsi, la jalousie ne concerne pas seulement l’attachement, mais aussi la possession. Nous ressentons que notre partenaire actuel nous appartient — corps, mémoire, passé, avenir. Et cela devient encore plus flagrant dans la jalousie rétroactive, car elle suppose un droit sur l’histoire entière de l’autre. Certains hommes et femmes vont jusqu’à considérer que leur bien-aimé a été souillé par des amours passés.</p>
+
+    <h2>1. L'Autre comme propriété</h2>
+    <p>Percevoir l'autre comme une possession est une idée que l’on refoule, mais qui transparaît dans nos réactions. Ressentir une douleur vive face à l’histoire d’un partenaire, c’est réclamer des droits sur quelque chose qui ne nous a jamais appartenu. Nous exigeons fidélité même sur ce qui a précédé notre rencontre. Ce n’est pas seulement une marque d’immaturité émotionnelle — c’est un mécanisme inconscient de domination. Dans notre imaginaire, le corps de l’autre est un espace privé où seul notre désir peut régner. Nous décidons quand le lien se termine. Certaines femmes, en particulier, intériorisent cette idée avec intensité : le simple fait que leur partenaire ait connu d’autres bras suffit à créer un sentiment d’impureté irrationnelle.</p>
+
+    <h2>2. L’Objet usagé n’a plus de valeur</h2>
+    <p>Vous avez sûrement entendu un jour : « Celle-là, c’est pour se marier ». Cette phrase renferme l’idée pernicieuse d’une pureté idéalisée. Le partenaire idéal est celui ou celle que personne n’a encore touché, qui n’a pas de passé. Dans ce scénario, la jalousie rétroactive devient une quête maniaque de validation. L’individu jaloux fouille le passé comme s’il inspectait une propriété à la recherche de défauts cachés. Pour lui, chaque relation antérieure est une tache sur son bien, une violation de ses droits imaginaires.</p>
+
+    <h2>3. Le Rôle du rejet</h2>
+    <p>La jalousie rétroactive ne se limite pas à la possession : elle est aussi liée à une hypersensibilité au rejet. Des recherches publiées dans le Journal of Interpersonal Violence montrent que les personnes sensibles au rejet sont plus susceptibles de développer ce type de jalousie. Leur passé douloureux les rend hypervigilants, promptes à interpréter des détails anodins comme des signes de trahison. Ce qui, en retour, amplifie les angoisses et détruit la confiance relationnelle.</p>
+
+    <h2>Conclusion</h2>
+    <p>Oui, la jalousie rétroactive peut empoisonner une relation. Mais elle n’est pas une fatalité. Nous ne contrôlons pas nos émotions, mais nous pouvons apprendre à les réguler. Cela demande du courage, de l’introspection et une volonté de grandir. Pour surmonter ce sentiment, il faut :</p>
+
+    <ul>
+      <li><strong>Explorer ses émotions</strong> – La connaissance de soi est la clé de toute relation saine. Comprendre ses insécurités permet de les transformer en force intérieure.</li>
+      <li><strong>Résister à l'envie de fouiller</strong> – Le passé ne nous appartient pas. Chercher à tout savoir, c’est se perdre dans une illusion de contrôle. Il vaut mieux cultiver la confiance que nourrir l’obsession.</li>
+      <li><strong>Accepter que l’autre ne nous appartient pas</strong> – L’amour ne se possède pas. Il se vit dans la liberté. Ce n’est qu’en renonçant à la propriété que l’on peut aimer pleinement.</li>
+      <li><strong>Exprimer ses peurs avec sincérité</strong> – Dire ce que l’on ressent, c’est créer un espace d’écoute et d’empathie. Et cela renforce le lien plutôt que de l’éroder.</li>
+    </ul>
+
+    <p><strong>#jalousie #jalousieretroactive #relation #psychologie #trahison #couple #therapiedecouple #émotion</strong></p>
+  </main>
+
+  <footer>
+    &copy; Raphael Sousa — Tous droits réservés.
+  </footer>
+</body>
+</html>
