@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflections</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #121014;
+      color: #f9f9f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #f7931e;
+      text-decoration: none;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f7931e;
+    }
+    main {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #333;
+    }
+    .card a {
+      color: #f7931e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">Raphael Sousa</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="/en/reflections/">Reflections</a>
+      <a href="../en/about/index.html">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
+   <main>
+    <div class="card">
+      <img src="imagens/jealousy-flirtation.jpg" alt="Article Image">
+      <div class="card-content">
+        <h2>Retroactive Jealousy: Why Does the Other's Past Bother Us?</h2>
+        <p>Retroactive jealousy reveals insecurity and the unconscious desire to own the partner’s past... <a href="ciume-retroativo.html">Read more</a></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="imagens/silencio-grita.jpg" alt="Poetry Cover">
+      <div class="card-content">
+        <h2>The Silence that Screams</h2>
+        <p>A poem about absence, time, and language as the echo of what remains unsaid... <a href="#">Read more</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
