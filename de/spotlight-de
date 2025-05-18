@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Spotlight: Die Bibel | Raphael Sousa</title>
+  <meta name="description" content="Eine kühne literarische Trilogie, die in das Innere der jüdisch-christlichen religiösen Erzählung eintaucht. Raphael Sousa enthüllt die Geheimnisse der Schrift wie nie zuvor.">
+  <meta name="keywords" content="Spotlight, Die Bibel, Raphael Sousa, biblische Trilogie, Adam und Eva, Geschichte der Bibel, Religion, Bibelkritik, Mythologie, Judentum, Altes Testament">
+  <meta name="author" content="Raphael Sousa">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Spotlight: Die Bibel | Raphael Sousa">
+  <meta property="og:description" content="Eine literarische Trilogie, die die Grundlagen des jüdisch-christlichen Glaubens offenlegt. Eine Reise zu den Ursprüngen der Menschheit und der verborgenen Wahrheit in der Schrift.">
+  <meta property="og:image" content="https://raphaelsousa-escritor.github.io/imagens/spotlight-biblia.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://raphaelsousa-escritor.github.io/spotlight.html">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Spotlight: Die Bibel | Raphael Sousa">
+  <meta name="twitter:description" content="Trilogie, die religiöse Dogmen hinterfragt und vergessene Wahrheiten der Bibel offenbart. Essenziell für alle, die Spiritualität neu verstehen wollen.">
+  <meta name="twitter:image" content="https://raphaelsousa-escritor.github.io/imagens/spotlight-biblia.jpg">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f4f1ed;
+      color: #2e2e2e;
+      line-height: 1.7;
+    }
+    header, footer {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: #6a0f49;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #5a3e36;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #9c1c6e;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .book {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+    }
+    .book img {
+      max-width: 200px;
+      display: block;
+      margin: 1rem auto;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.2rem;
+      background-color: #6a0f49;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .cta:hover {
+      background-color: #9c1c6e;
+    }
+    .coming-soon {
+      font-style: italic;
+      text-align: center;
+      color: #888;
+    }
+    .series-cover {
+      width: 632px;
+      height: 356px;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spotlight-Serie: Die Bibel</h1>
+    <nav>
+      <a href="/">Startseite</a>
+      <a href="/#blog">Reflexionen</a>
+      <a href="/#contato">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <img src="spotlight-biblia2.jpg" alt="Cover der Spotlight-Serie: Die Bibel" class="series-cover">
+      <p>"Spotlight: Die Bibel" ist eine außergewöhnliche literarische Trilogie, die tief in das Herz der jüdisch-christlichen religiösen Erzählung eintaucht und eine einzigartige und mutige Reise enthüllt. In drei spannenden Bänden (zwei davon bereits verfügbar) hinterfragt diese Serie traditionelle Konzepte und enthüllt die tiefsten Geheimnisse der Heiligen Schrift.</p>
+      <p>Von der Schöpfung bis zum babylonischen Exil führt "Spotlight: Die Bibel" durch eine faszinierende Reise zu den Ereignissen und Charakteren, die unser spirituelles Verständnis geprägt haben. Die Serie zeichnet sich durch ihren Mut aus, Dogmen zu hinterfragen und Wahrheiten offenzulegen, die unter Schichten von Mythos und Interpretation begraben liegen.</p>
+    </section>
+
+    <section class="book">
+      <img src="adao-eva.jpg" alt="Cover des Buches Adam und Eva">
+      <h3>Adam & Eva: Enthüllte Geheimnisse</h3>
+      <p>Eine freche Reise zu den Ursprüngen des Bösen. In diesem Buch verbindet Raphael Sousa biblische Mythen und alte Kosmogonien, um das zu enthüllen, was dir über Eden nie erzählt wurde – die Schlange, Lilith, Satan, die gefallenen Engel und die Riesen. Nichts ist hier simpel: Der Sündenfall war nicht nur Ungehorsam, sondern die Geburt des menschlichen Schmerzes.</p>
+      <a href="https://www.amazon.com.br/Ad%C3%A3o-Eva-Raphael-Andrade-Sousa/dp/6500639952" class="cta" target="_blank">Bei Amazon kaufen</a>
+    </section>
+
+    <section class="book">
+      <img src="historia-biblia.jpg" alt="Cover des Buches Die wahre Geschichte der Bibel">
+      <h3>Die wahre Geschichte der Bibel</h3>
+      <p>Enthüllt, was die Tradition zu verbergen versuchte: Die Bibel entstand nicht fertig und rein. Raphael Sousa zeigt die vergessene Vergangenheit eines nomadischen und analphabetischen Volkes, das nach dem Exil seine Geschichte unter Ruinen und Scham neu schrieb. Wer schrieb wirklich die heiligen Texte? Welche Stimmen wurden zum Schweigen gebracht? Zwischen Verrat, Zensur und der Erfindung eines Stammesgottes dekonstruiert dieses Buch Mythen und lädt zur nackten Wahrheit ein.</p>
+      <a href="https://www.amazon.com.br/Verdadeira-Hist%C3%B3ria-B%C3%ADblia-Spotlight-Livro-ebook/dp/B0CLL64K7P" class="cta" target="_blank">Bei Amazon kaufen</a>
+    </section>
+
+    <section class="book">
+      <h3>Band 3 (Demnächst)</h3>
+      <p class="coming-soon">Der dritte Band der Serie ist in Arbeit. Bereiten Sie sich auf neue Enthüllungen über den Hintergrund des Glaubens und der heiligen Geschichte vor.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Raphael Sousa. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
