@@ -4,8 +4,16 @@
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="C3PdLhUC4mq4L2q6dZj3-R8ZUtvR0pul1JUiWmX2H4o" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Official website of writer Raphael Sousa. Discover his books, read reflections, and contact the author directly.">
-  <title>Raphael Sousa — Writer</title>
+  <meta name="description" content="Official website of author Raphael Sousa. Discover his books, read reflections, and contact him directly.">
+  <title>Raphael Sousa — Author</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="🔥 Raphael Sousa — Author of Thought-Provoking Books on Faith, Philosophy, and the Human Nature" />
+  <meta property="og:description" content="Official website of Raphael Sousa — author of impactful works on spirituality, critical consciousness, and the human spirit. Explore books, reflections, and free thoughts." />
+  <meta property="og:image" content="https://raphaelsousa-escritor.github.io/minha-foto.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://raphaelsousa-escritor.github.io/en/index.html" />
+
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
   <style>
     body {
@@ -21,7 +29,7 @@
       text-align: center;
       border-bottom: 1px solid #3e3d42;
     }
-    h0 {
+    h1 {
       font-family: 'Playfair Display', serif;
       font-size: 3rem;
       color: #f29f05;
@@ -48,13 +56,13 @@
       margin: 2rem auto;
       padding: 0 1rem;
     }
-    #books .grid {
+    #livros .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
       margin-top: 1rem;
     }
-    .book-card {
+    .card-livro {
       background-color: #2b2a2e;
       border-radius: 8px;
       padding: 1rem;
@@ -64,21 +72,21 @@
       align-items: center;
       text-align: center;
     }
-    .book-card img {
+    .card-livro img {
       width: 100%;
       max-width: 200px;
       border-radius: 4px;
       margin-bottom: 1rem;
     }
-    .book-card h3 {
+    .card-livro h3 {
       margin: 0.5rem 0;
       font-size: 1.1rem;
     }
-    .book-card p {
+    .card-livro p {
       font-size: 0.95rem;
       color: #ddd;
     }
-    .book-card .cta {
+    .card-livro .cta {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.5rem 1.2rem;
@@ -88,7 +96,7 @@
       border-radius: 4px;
       transition: background-color 0.3s ease;
     }
-    .book-card .cta:hover {
+    .card-livro .cta:hover {
       background-color: #ffb92a;
     }
     .social {
@@ -102,45 +110,65 @@
       width: 30px;
       height: 30px;
     }
+    .language-switcher {
+      margin-top: 1rem;
+    }
+    .language-switcher a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #f4f1ed;
+      font-size: 0.9rem;
+    }
+    .language-switcher img {
+      width: 24px;
+      vertical-align: middle;
+      margin-right: 0.3rem;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Raphael Sousa</h1>
-    <h3>Writer</h3>
+    <h3>Author</h3>
     <p class="copyright">© Copyright 2025</p>
     <div class="social">
       <a href="https://www.instagram.com/_raphael.sousa_" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
       <a href="https://www.youtube.com/@_raphael.sousa_" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
     </div>
+    <div class="language-switcher">
+      <a href="/index.html"><img src="https://flagcdn.com/w40/br.png" alt="Português">Português</a> |
+      <a href="/en/index.html"><img src="https://flagcdn.com/w40/gb.png" alt="English">English</a> |
+      <a href="/fr/index.html"><img src="https://flagcdn.com/w40/fr.png" alt="Français">Français</a> |
+      <a href="/de/index.html"><img src="https://flagcdn.com/w40/de.png" alt="Deutsch">Deutsch</a>
+    </div>
     <nav>
-      <a href="/index.html">PT</a>
-      <a href="/en/index.html">EN</a>
-      <a href="/fr/index.html">FR</a>
-      <a href="/de/index.html">DE</a>
+      <a href="about.html">About Me</a>
+      <a href="#livros">Books</a>
+      <a href="reflections/">Reflections</a>
+      <a href="#contato">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section id="books">
+    <section id="livros">
       <h2>Books</h2>
       <div class="grid">
-        <div class="book-card">
-          <img src="religiosidade.jpg" alt="Cover of the book Religious Pornography">
+        <div class="card-livro">
+          <img src="../religiosidade.jpg" alt="Cover of the book Religious Pornography">
           <h3>Religious Pornography</h3>
-          <p>The consumption of pornography among Christians and the morbid silence of the churches. Raphael Sousa combines faith, neuroscience and lived experience to expose truths few dare to say.</p>
+          <p>The consumption of pornography among Christians and the morbid silence of Churches. Raphael Sousa combines faith, neuroscience, and experience to expose the truth few dare to reveal.</p>
           <a href="https://www.amazon.com.br/Religiosidade-Pornogr%C3%A1fica-pornografia-crist%C3%A3os-sil%C3%AAncio/dp/B0BW283Q2T/" class="cta" target="_blank">Buy on Amazon</a>
         </div>
-        <div class="book-card">
-          <img src="spotlight-biblia.jpg" alt="Cover of the Spotlight: The Bible Series">
+        <div class="card-livro">
+          <img src="../spotlight-biblia.jpg" alt="Cover of the Spotlight Series: The Bible">
           <h3>Spotlight Series: The Bible</h3>
-          <p>A literary trilogy revisiting the foundations of Judeo-Christian faith, uncovering truths buried under centuries of tradition. Two volumes already published.</p>
+          <p>A literary trilogy that revisits the foundations of Judeo-Christian faith, exposing truths buried beneath centuries of tradition. Two volumes already published.</p>
           <a href="spotlight.html" class="cta">Discover the series</a>
         </div>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contato">
       <h2>Contact</h2>
       <p>A direct contact form with the author will be added soon.</p>
     </section>
