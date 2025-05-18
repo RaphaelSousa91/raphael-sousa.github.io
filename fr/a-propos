@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>À propos de Raphael Sousa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #ffffff;
+      color: #111;
+    }
+
+    header {
+      background-color: #111;
+      color: #ff9900;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+    nav {
+      background-color: #111;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff9900;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .perfil {
+      display: block;
+      margin: 2rem auto;
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .assinatura {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 2rem;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raphael Sousa</h1>
+  </header>
+  <nav>
+    <a href="../index.html">Page d’accueil</a>
+    <a href="../reflexions/index.html">Réflexions</a>
+    <a href="#">Contact</a>
+    <a href="../index.html#livres">Livres</a>
+  </nav>
+  <main>
+    <img src="../minha-foto.jpg" alt="Photo de Raphael Sousa" class="perfil">
+    <p>Je m'appelle Raphael Sousa — ou du moins, c'est ainsi que j'ai été désigné dans le monde. Mais un nom n'est, en essence, qu'une convention ; et aucune convention ne saurait saisir le mystère d’un sujet. Les dossiers et les registres savent ce que j'ai fait : je suis avocat, chrétien, écrivain et théologien. Mais ces étiquettes, bien que légitimes, ne font qu’orbiter autour de ce que je suis — elles ne me traversent pas. Car que savent les registres de l’être qui se met en question ?</p>
+
+    <p>J'ai obtenu mon diplôme de droit à l’Université Candido Mendes (2013), j’ai obtenu une maîtrise en droit réglementaire à la Fundação Getúlio Vargas (2016), puis une maîtrise en droit et économie à la même UCAM (2018). J’ai accumulé les diplômes — non par vanité, mais par soif. L’éducation, pour moi, n’a jamais été un ornement ; elle a été un passage. Elle a été le moyen que j’ai trouvé pour me révolter contre le donné, contre le destin hérité, contre la répétition du Même.</p>
+
+    <p>Mais rien de tout cela, en soi, ne répond à la question fondamentale : qui suis-je ? Et peut-être que la réponse la plus honnête est : je suis un Autre — dans le plein sens de l'altérité. Je me sens toujours étranger à moi-même, et c’est justement pour cela que je refuse d’être un Cela, une chose définissable, une fonction, un curriculum. J'habite la tension entre le déjà-été et le pas-encore. Et c’est dans cet entre-deux que je respire.</p>
+
+    <p>Je suis donc une question en marche. Un être-en-gestation. Mon “je suis” ne se repose pas — il palpite, échappe, dépasse. Je ne m'intéresse pas à me fixer dans des essences ; je veux plutôt rester ouvert. Mon être est toujours à venir — non pas comme fuite, mais comme fidélité à mon incomplétude. Et en cela, je trouve ma puissance.</p>
+
+    <p>C’est l’éducation — les livres, les idées, les rencontres — qui m’a permis de penser ainsi : comme un devenir-qui-refuse-d’être-réduit-à-ce-qu’il-a-déjà-été. Elle m’a sauvé de l’automatisme, du monde-chose, de la logique du Cela. Elle a fait de moi quelqu’un capable de chercher le Tu — la rencontre vivante, la vraie relation, l’émerveillement de l’Être.</p>
+
+    <p>C’est pourquoi je reste engagé — non pas avec une identité figée, mais avec le processus d’habiter le monde pleinement. Je continue à écrire, à penser, à essayer. Je continue à être.</p>
+
+    <p class="assinatura">Raphael Sousa</p>
+  </main>
+</body>
+</html>
