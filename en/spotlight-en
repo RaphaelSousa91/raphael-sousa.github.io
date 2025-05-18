@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Spotlight: The Bible | Raphael Sousa</title>
+  <meta name="description" content="A bold literary trilogy that delves into the depths of the Judeo-Christian religious narrative. Raphael Sousa reveals the Scriptures' secrets like never before.">
+  <meta name="keywords" content="Spotlight, The Bible, Raphael Sousa, biblical trilogy, Adam and Eve, Bible history, religion, biblical criticism, mythology, Judaism, Old Testament">
+  <meta name="author" content="Raphael Sousa">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Spotlight: The Bible | Raphael Sousa">
+  <meta property="og:description" content="A literary trilogy revealing the backstage of Judeo-Christian faith. A journey through the origins of humanity and the hidden truth within the Scriptures.">
+  <meta property="og:image" content="https://raphaelsousa-escritor.github.io/imagens/spotlight-biblia.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://raphaelsousa-escritor.github.io/spotlight.html">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Spotlight: The Bible | Raphael Sousa">
+  <meta name="twitter:description" content="A trilogy that challenges religious dogmas and reveals the forgotten truths of the Bible. An essential read for those seeking to understand spirituality in a new light.">
+  <meta name="twitter:image" content="https://raphaelsousa-escritor.github.io/imagens/spotlight-biblia.jpg">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f4f1ed;
+      color: #2e2e2e;
+      line-height: 1.7;
+    }
+    header, footer {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: #6a0f49;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #5a3e36;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #9c1c6e;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .book {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+    }
+    .book img {
+      max-width: 200px;
+      display: block;
+      margin: 1rem auto;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1.2rem;
+      background-color: #6a0f49;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .cta:hover {
+      background-color: #9c1c6e;
+    }
+    .coming-soon {
+      font-style: italic;
+      text-align: center;
+      color: #888;
+    }
+    .series-cover {
+      width: 632px;
+      height: 356px;
+      display: block;
+      margin: 1rem auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spotlight Series: The Bible</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/#blog">Reflections</a>
+      <a href="/#contato">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <img src="spotlight-biblia2.jpg" alt="Cover of the Spotlight: The Bible series" class="series-cover">
+      <p>"Spotlight: The Bible" is an extraordinary literary trilogy that dives deep into the heart of the Judeo-Christian religious narrative, revealing a unique and daring journey. Across three thrilling volumes (two already available), this series challenges conventional beliefs and uncovers the deepest secrets of the Holy Scriptures.</p>
+      <p>From the beginning of Creation to the agony of Babylonian captivity, "Spotlight: The Bible" takes us on a fascinating journey through the events and characters that shaped our spiritual understanding. What makes this series remarkable is its boldness in questioning dogmas and exposing truths buried under layers of myth and interpretation.</p>
+    </section>
+
+    <section class="book">
+      <img src="adao-eva.jpg" alt="Book cover of Adam and Eve">
+      <h3>Adam & Eve: Secrets Unveiled</h3>
+      <p>An irreverent journey to the origins of Evil. In this book, Raphael Sousa weaves together biblical myths and ancient cosmogonies to reveal what was never told about Eden – the serpent, Lilith, Satan, fallen angels, and giants. Nothing here is simplistic: the fall wasn't just disobedience, it was the birth of human pain.</p>
+      <a href="https://www.amazon.com.br/Ad%C3%A3o-Eva-Raphael-Andrade-Sousa/dp/6500639952" class="cta" target="_blank">Buy on Amazon</a>
+    </section>
+
+    <section class="book">
+      <img src="historia-biblia.jpg" alt="Book cover of The True History of the Bible">
+      <h3>The True History of the Bible</h3>
+      <p>Reveals what tradition tried to erase: the Bible was not born complete or pure. Raphael Sousa unveils the forgotten past of a nomadic, illiterate people who, centuries after exile, rewrote their history from ruins and shame. Who really wrote the sacred texts? Which voices were silenced? Amid betrayals, censorship, and the invention of a tribal God, this book dismantles myths and invites readers into raw truth.</p>
+      <a href="https://www.amazon.com.br/Verdadeira-Hist%C3%B3ria-B%C3%ADblia-Spotlight-Livro-ebook/dp/B0CLL64K7P" class="cta" target="_blank">Buy on Amazon</a>
+    </section>
+
+    <section class="book">
+      <h3>Volume 3 (Coming Soon)</h3>
+      <p class="coming-soon">The third volume of the series is in development. Get ready for more revelations about the backstage of faith and sacred history.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Raphael Sousa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
