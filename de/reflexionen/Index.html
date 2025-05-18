@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflexionen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #121014;
+      color: #f9f9f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #f7931e;
+      text-decoration: none;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f7931e;
+    }
+    main {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #333;
+    }
+    .card a {
+      color: #f7931e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="logo">Raphael Sousa</a>
+    <nav>
+      <a href="../index.html">Startseite</a>
+      <a href="/reflexionen/">Reflexionen</a>
+      <a href="../uber-mich.html">Über</a>
+      <a href="#">Kontakt</a>
+    </nav>
+  </header>
+
+   <main>
+    <div class="card">
+      <img src="imagens/jealousy-flirtation.jpg" alt="Artikelbild">
+      <div class="card-content">
+        <h2>Retroaktive Eifersucht: Warum stört uns die Vergangenheit des anderen?</h2>
+        <p>Retroaktive Eifersucht offenbart Unsicherheit und den unbewussten Wunsch, auch die Vergangenheit des Partners zu besitzen... <a href="retroaktive-eifersucht.html">Weiterlesen</a></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="imagens/silencio-grita.jpg" alt="Gedichtcover">
+      <div class="card-content">
+        <h2>Das Schweigen, das schreit</h2>
+        <p>Ein Gedicht über Abwesenheit, Zeit und Sprache als Echo dessen, was nicht gesagt wird... <a href="#">Weiterlesen</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
