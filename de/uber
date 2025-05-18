@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Über Raphael Sousa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #ffffff;
+      color: #111;
+    }
+
+    header {
+      background-color: #111;
+      color: #ff9900;
+      padding: 1rem;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+    nav {
+      background-color: #111;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff9900;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .profil {
+      display: block;
+      margin: 2rem auto;
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .unterschrift {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 2rem;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raphael Sousa</h1>
+  </header>
+  <nav>
+    <a href="../index.html">Startseite</a>
+    <a href="../reflexionen/index.html">Reflexionen</a>
+    <a href="#">Kontakt</a>
+    <a href="../index.html#livros">Bücher</a>
+  </nav>
+  <main>
+    <img src="../minha-foto.jpg" alt="Foto von Raphael Sousa" class="profil">
+    <p>Mein Name ist Raphael Sousa – oder zumindest wurde mir dieser im Leben zugewiesen. Doch ein Name ist im Wesentlichen eine Konvention, und keine Konvention kann das Mysterium eines Subjekts vollständig erfassen. Die Register wissen, was ich getan habe: Ich bin Jurist, Christ, Schriftsteller und Theologe. Aber diese Bezeichnungen, so legitim sie auch sein mögen, umkreisen nur, wer ich bin – sie durchdringen mich nicht. Denn was wissen die Register über das Wesen, das sich selbst in Frage stellt?</p>
+
+    <p>Ich habe meinen Abschluss in Rechtswissenschaften an der Universität Candido Mendes (2013) gemacht, wurde Master im Regulierungsrecht an der Fundação Getúlio Vargas (2016) und später Master in Recht und Wirtschaft an derselben UCAM (2018). Ich habe Diplome gesammelt – nicht aus Eitelkeit, sondern aus Durst. Bildung war für mich nie ein Ornament, sondern ein Übergang. Es war mein Weg, mich gegen das Gegebene zu stellen, gegen das geerbte Schicksal, gegen die Wiederholung des Immergleichen.</p>
+
+    <p>Aber nichts davon beantwortet für sich allein die fundamentale Frage: Wer bin ich? Und vielleicht ist die ehrlichste Antwort: Ich bin ein Anderer – im vollen Sinne der Andersheit. Ich fühle mich stets fremd in mir selbst, und gerade deshalb weigere ich mich, ein Es zu sein, ein definierbares Ding, eine Funktion, ein Lebenslauf. Ich bewohne die Spannung zwischen dem Gewesenen und dem Noch-nicht. Und in diesem Dazwischen atme ich.</p>
+
+    <p>Ich bin also eine wandernde Frage. Ein Wesen im Werden. Mein „Ich bin“ ruht nicht – es pulsiert, entgleitet, übersteigt. Es interessiert mich nicht, mich in Essenzen festzulegen; vielmehr will ich offen bleiben. Mein Sein ist stets im Kommen – nicht als Flucht, sondern als Treue zu meiner eigenen Unvollständigkeit. Darin finde ich Kraft.</p>
+
+    <p>Es war die Bildung – die Bücher, die Ideen, die Begegnungen – die es mir ermöglicht haben, mich so zu denken: als ein Werden, das sich weigert, auf das Reduzierte, das es einmal war, beschränkt zu werden. Sie haben mich gerettet vor dem Automatismus, vor der Dingwelt, vor der Logik des Es. Sie machten mich fähig, das Du zu suchen – die lebendige Begegnung, die wahre Beziehung, das Staunen des Seins.</p>
+
+    <p>Deshalb bleibe ich engagiert – nicht für eine fertige Identität, sondern für den Prozess, die Welt in Ganzheit zu bewohnen. Ich schreibe weiter, denke weiter, versuche weiter. Ich bin weiterhin.</p>
+
+    <p class="unterschrift">Raphael Sousa</p>
+  </main>
+</body>
+</html>
