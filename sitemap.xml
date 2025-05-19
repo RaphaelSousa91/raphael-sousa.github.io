@@ -2,7 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Página Inicial -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/</loc>
     <lastmod>2025-05-19</lastmod>
@@ -13,7 +12,6 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://raphaelsousa-escritor.github.io/de/index.html"/>
   </url>
 
-  <!-- Sobre Mim -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/sobre.html</loc>
     <lastmod>2025-05-19</lastmod>
@@ -24,7 +22,6 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://raphaelsousa-escritor.github.io/de/uber-mich.html"/>
   </url>
 
-  <!-- Reflexões -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/reflexoes/</loc>
     <lastmod>2025-05-19</lastmod>
@@ -32,7 +29,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Post: Ciúme Retroativo -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/ciume-retroativo.html</loc>
     <lastmod>2025-05-19</lastmod>
@@ -43,7 +39,6 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://raphaelsousa-escritor.github.io/de/ruckwirkende-eifersucht.html"/>
   </url>
 
-  <!-- Spotlight -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/spotlight.html</loc>
     <lastmod>2025-05-19</lastmod>
@@ -54,7 +49,6 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://raphaelsousa-escritor.github.io/de/spotlight.html"/>
   </url>
 
-  <!-- Contato -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/contato.html</loc>
     <lastmod>2025-05-19</lastmod>
@@ -65,7 +59,6 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://raphaelsousa-escritor.github.io/de/kontakt.html"/>
   </url>
 
-  <!-- Página principal de Livros -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/livros.html</loc>
     <lastmod>2025-05-19</lastmod>
@@ -76,7 +69,6 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://raphaelsousa-escritor.github.io/de/bucher.html"/>
   </url>
 
-  <!-- Série Suma Ateológica - Livro 1 -->
   <url>
     <loc>https://raphaelsousa-escritor.github.io/suma-ateologica/a-moral-man.html</loc>
     <lastmod>2025-05-19</lastmod>
