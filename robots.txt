@@ -1,4 +1,1 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://raphaelsousa-escritor.github.io/sitemap.txt
+Sitemap: https://cosmic-crostata-c32bb6.netlify.app/sitemap.xml
