@@ -71,6 +71,7 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
+      position: relative;
     }
     .card-livro img {
       width: 100%;
@@ -124,6 +125,17 @@
       vertical-align: middle;
       margin-right: 0.3rem;
     }
+    .tag-lancamento {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #f29f05;
+      color: #141316;
+      font-size: 0.75rem;
+      font-weight: bold;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -154,6 +166,13 @@
       <h2>Livros</h2>
       <div class="grid">
         <div class="card-livro">
+          <span class="tag-lancamento">Lançamento</span>
+          <img src="suma-ateologica.jpg" alt="Capa da Série Suma Ateológica">
+          <h3>Série Suma Ateológica</h3>
+          <p>Um tratado filosófico sobre o erotismo, a religião e o corpo. Raphael Sousa escreve através da carne, cruzando o último véu da experiência. Dois volumes intensos e reveladores.</p>
+          <a href="suma-ateologica.html" class="cta">Conhecer a série</a>
+        </div>
+        <div class="card-livro">
           <img src="religiosidade.jpg" alt="Capa do livro Religiosidade Pornográfica">
           <h3>Religiosidade Pornográfica</h3>
           <p>O consumo de pornografia entre cristãos e o mórbido silêncio das Igrejas. Raphael Sousa une fé, neurociência e experiência para expor a verdade que poucos têm coragem de dizer.</p>
@@ -164,12 +183,6 @@
           <h3>Série Spotlight: A Bíblia</h3>
           <p>Uma trilogia literária que revisita os alicerces da fé judaico-cristã, expondo verdades soterradas sob séculos de tradição. Dois volumes já publicados.</p>
           <a href="spotlight.html" class="cta">Conhecer a série</a>
-        </div>
-        <div class="card-livro">
-          <img src="suma-ateologica.jpg" alt="Capa da Série Suma Ateológica">
-          <h3>Série Suma Ateológica</h3>
-          <p><em>Suma Ateológica: Tratado da Vida Erótica</em> é o primeiro romance de Raphael Sousa — e talvez o último que ousa devolver ao erotismo sua dignidade esquecida. Aqui, o desejo não se curva à vitrine, nem se deita ao lado do tédio higienizado que a moral oferece como consolo.</p>
-          <a href="suma-ateologica.html" class="cta">Conhecer a série</a>
         </div>
       </div>
     </section>
